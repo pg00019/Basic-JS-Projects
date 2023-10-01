@@ -1,0 +1,49 @@
+/* use Flexbox */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#B2B5E0;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "poppin"; 
+}
+.container {
+background-color: #fff;
+height: auto;
+padding: 20px 20px;
+margin: 20px 20px;
+text-align: center;
+border: none;
+border-radius: 15px;
+box-shadow:2px 2px 10px #888;;
+}
+
+.heading {
+    letter-spacing:2px;
+    margin-bottom: 8px;
+}
+
+input{
+    padding: 5px ;
+    border:2px solid #000;
+    border-radius: 5px;
+    margin: 6px 0 10px 0 ;
+}
+
+.calBtn {
+    margin: 6px 0 10px 0;
+    padding: 5px 55px;
+    font-size: 14px;
+    border:none;
+    border-radius:5px ;
+    background-color: #333;
+    color: #fff;
+
+}
