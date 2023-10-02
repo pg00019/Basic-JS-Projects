@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #B2B5E0;
+}
+.container {
+    background-color: #fff;
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    margin: 230px 10px 150px 10px;
+    border: none;
+    border-radius: 15px;
+    box-shadow:2px 2px 10px #888;;
+    
+}
+.main-body {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    /* display: flex; */
+    /* flex-direction: column; */
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+.count{
+    margin: 8px 0 ;
+    font-size: 30px;
+    font-weight: bold;
+    color:crimson;
+}
+.calBtn {
+    padding: 8px 12px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    margin: 0 8px ;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 20px;
+}
+
